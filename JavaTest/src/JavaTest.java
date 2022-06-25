@@ -1,8 +1,14 @@
+import java.util.Scanner;
 
 public class JavaTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter name: ");
+		String name = sc.next();
+		
+		System.out.println("Your name is: " + name);
 
 	}
 
